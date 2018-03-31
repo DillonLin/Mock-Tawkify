@@ -1,0 +1,67 @@
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(bf9f5d50c1b928ff21436517a1a95ad9.otf); }
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(72b6f2c9990bd3d37b8013a59ed78902.otf); }
+
+@font-face {
+  font-family: ProximaNova-Light;
+  src: url(ac51ad8a36d5bab6da11d454bcd06561.otf); }
+
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url(f14eee643541cf03a10f26c944cc29f5.otf); }
+
+.navigation-bar {
+  background-color: #525659; }
+
+#button-five, #button-four, #button-one, #button-six, #button-three, #button-two, .navigation-bar #navigation-logo {
+  padding-top: 35px; }
+
+.navigation-bar #navigation-logo {
+  font-family: ProximaNova-Regular;
+  font-size: 48px; }
+
+#button-four, #button-three, #button-two, .navigation-bar #button-one {
+  font-family: ProximaNova-Bold;
+  font-size: 14px; }
+
+.navigation-bar #button-six {
+  font-family: ProximaNova-Light;
+  font-size: 26px; }
+
+.header-banner {
+  position: relative;
+  top: 130px;
+  font-family: ProximaNova-Light;
+  font-size: 20px;
+  color: #fff;
+  line-height: 2;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 54, 46, 0.639)));
+  background: linear-gradient(rgba(62, 54, 46, 0.639)); }
+
+.progress-tracker #title {
+  font-family: ProximaNova-Light;
+  font-size: 30px;
+  color: #434548; }
+
+.progress-tracker #paragraph {
+  font-family: ProximaNova-Light;
+  font-size: 18px;
+  color: #6e747b; }
+
+#gender-preference, #your-birthday, #your-height, #your-income, #your-interests, #your-location, #your-occupation, .about-yourself-body #your-gender {
+  font-family: ProximaNova-Semibold;
+  font-size: 20px; }
+
+#income-preference, .about-yourself-body #height-perference {
+  font-family: ProximaNova-Light;
+  font-size: 14px; }
+
+.add-photos-body #add-photo {
+  border-color: #000;
+  border-style: dashed; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3N0eWxlLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/

@@ -1,0 +1,204 @@
+/* -------------------- FONTS -------------------- */
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("../assets/fonts/ProximaNova-Regular.otf") 
+}
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url("../assets/fonts/ProximaNova-Black.otf") 
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("../assets/fonts/ProximaNova-Bold.otf") 
+}
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("../assets/fonts/ProximaNova-Semibold.otf") 
+}
+@font-face {
+  font-family: "ProximaNova-Light";
+  src: url("../assets/fonts/ProximaNova-Light.otf") 
+}
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("../assets/fonts/ProximaNova-Semibold.otf") 
+}
+@font-face {
+  font-family: "ProximaNovaCond-Light";
+  src: url("../assets/fonts/ProximaNovaCond-Light.otf") 
+}
+@font-face {
+  font-family: "ProximaNovaCond-Semibold";
+  src: url("../assets/fonts/ProximaNovaCond-Semibold.otf") 
+}
+
+/* -------------------- NAVIGATION BAR & HEADER -------------------- */
+
+.navigation-bar {
+  background-color: rgb(82, 86, 89);
+}
+
+.navigation-bar #navigation-logo, #button-one, #button-two, #button-three, #button-four, #button-five, #button-six {
+  padding-top: 35px;
+}
+
+.navigation-bar #navigation-logo {
+  font-family: "ProximaNova-Regular";
+  font-size: 48px;
+}
+
+.navigation-bar #button-one, #button-two, #button-three, #button-four {
+  font-family: "ProximaNova-Bold";
+  font-size: 14px;
+}
+
+.navigation-bar #button-six {
+  font-family: "ProximaNova-Light";
+  font-size: 26px;
+}
+
+.header-banner {
+  position: relative;
+  top: 130px;
+  font-family: "ProximaNova-Light";
+  font-size: 20px;
+  color: white;
+  line-height: 2;
+  background: linear-gradient( rgba(62, 54, 46, 0.639));
+}
+
+/* -------------------- ABOUT YOURSELF DESCRIPTION -------------------- */
+
+.progress-tracker #title {
+  font-family: "ProximaNova-Light";
+  font-size: 30px;
+  color: rgb(67, 69, 72);
+}
+
+.progress-tracker #paragraph {
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  color: rgb(110, 116, 123);
+}
+
+/* -------------------- ABOUT YOURSELF BODY -------------------- */
+
+.about-yourself-body #your-gender, #gender-preference, #your-location, #your-birthday, #your-height, #your-occupation, #your-income, #your-interests {
+  font-family: "ProximaNova-Semibold";
+  font-size: 20px;
+}
+
+.about-yourself-body #height-preference, #income-preference {
+  font-family: "ProximaNova-Light";
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.about-yourself-body #yes-height-true, #no-height-true {
+  background-color: #00B9D7;  
+  border-radius: 0;
+}
+
+.about-yourself-body #yes-height-false, #no-height-false {
+  background-color: #BCBEC0;
+  border-radius: 0;
+}
+
+.about-yourself-body #yes-height-false:hover, #no-height-false:hover {
+  background-color: rgb(62, 60, 60);
+}
+
+.about-yourself-body #yes-income-true, #no-income-true {
+  background-color: #00B9D7;
+  border-radius: 0;
+}
+
+.about-yourself-body #yes-income-false, #no-income-false {
+  background-color: #BCBEC0;
+  border-radius: 0;
+}
+
+.about-yourself-body #yes-income-false:hover, #no-income-false:hover {
+  background-color: rgb(62, 60, 60);
+}
+
+.about-yourself-body #select-your-gender, #select-desired-gender, #location-form, #birthday-form-month, 
+#birthday-form-day, #birthday-form-year, #select-height, #interests-form, #occupation-form, #select-income {
+  border-radius: 0px;
+  width: 300px;
+  height: 50px;
+}
+
+.about-yourself-body #height-preference, #income-preference {
+  font-family: "ProximaNova-Light";
+  font-size: 16px;
+  color: rgb(110, 116, 123);
+  text-align: center;
+}
+
+.about-yourself-body #your-gender-description, #gender-preference-description, #location-description, 
+#height-description, #occupation-description, #interests-description, #income-description {
+  font-family: "ProximaNova-Light";
+  font-size: 14px;
+  color: rgb(110, 116, 123);
+  text-align: center;
+}
+
+.about-yourself-body #save-and-continue {
+  background-color: #00B9D7;  
+  border-radius: 0;
+  height: 44px;
+}
+
+/* -------------------- ADD PHOTOS DESCRIPTION -------------------- */
+
+.add-photos-description #title {
+  font-family: "ProximaNova-Light";
+  font-size: 30px;
+  color: rgb(67, 69, 72);
+}
+
+.add-photos-description #paragraph {
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  color: rgb(67, 69, 72);
+}
+
+/* -------------------- ADD PHOTOS BODY -------------------- */
+
+.add-photos-body #add-photo {
+  border-color: rgba(26, 25, 25, 0.632);
+  border-style: dashed;
+  border-width: 1.5px;
+}
+
+.add-photos-body .far {
+  color: darkgray;
+  font-size: 60px;
+  padding-top: 100px;
+}
+
+.add-photos-body #instructions {
+  font-family: "ProximaNova-Light";
+  font-size: 20px;
+  color: #F27172;
+  padding-bottom: 100px;
+}
+
+.add-photos-body #choose-file {
+  background-color: #F27172;  
+  border-radius: 0;
+  height: 44px;
+}
+
+.add-photos-body #save-and-continue {
+  background-color: #00B9D7;  
+  border-radius: 0;
+  height: 44px;
+}
+
+.add-photos-body #parameters {
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  color: rgb(67, 69, 72);
+}
